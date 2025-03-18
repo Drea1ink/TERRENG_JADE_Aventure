@@ -1,5 +1,9 @@
-/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
-/// @DnDVersion : 1.1
-/// @DnDHash : 408C272D
-/// @DnDArgument : "direction" "90"
-direction = 90;
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 52F666A2
+/// @DnDInput : 2
+/// @DnDArgument : "expr_1" "-1"
+/// @DnDArgument : "var" "dirX"
+/// @DnDArgument : "var_1" "dirY"
+dirX = 0;
+dirY = -1;

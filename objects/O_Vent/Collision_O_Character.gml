@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
-/// @DnDHash : 36A15142
-/// @DnDArgument : "script" "sc_ReduceLife"
+/// @DnDHash : 2A677E84
+/// @DnDArgument : "script" "Scr_ReduceLife"
 /// @DnDArgument : "arg" "1"
-/// @DnDSaveInfo : "script" "sc_ReduceLife"
-script_execute(sc_ReduceLife, 1);
+/// @DnDSaveInfo : "script" "Scr_ReduceLife"
+script_execute(Scr_ReduceLife, 1);
