@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4457B149
-/// @DnDArgument : "expr" "True"
+/// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "isAttacking"
-isAttacking = True;
+isAttacking = true;
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
