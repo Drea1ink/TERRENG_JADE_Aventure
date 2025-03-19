@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Key",
+    "path":"sprites/S_Key/S_Key.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

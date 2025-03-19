@@ -46,7 +46,7 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"S_Character",
     "path":"sprites/S_Character/S_Character.yy",
