@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_LarryDialog",
+  "%Name":"O_Controller",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Character","path":"objects/O_Character/O_Character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":16,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_LarryDialog",
+  "name":"O_Controller",
   "overriddenProperties":[],
   "parent":{
     "name":"Characters",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_Key",
-    "path":"sprites/S_Key/S_Key.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
