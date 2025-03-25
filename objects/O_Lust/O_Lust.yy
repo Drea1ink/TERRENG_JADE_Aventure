@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_Pride",
+  "%Name":"O_Lust",
   "eventList":[],
   "managed":true,
-  "name":"O_Pride",
+  "name":"O_Lust",
   "overriddenProperties":[],
   "parent":{
     "name":"Ennemis",

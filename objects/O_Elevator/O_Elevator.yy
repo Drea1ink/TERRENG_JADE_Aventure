@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"O_Elevator",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Character","path":"objects/O_Character/O_Character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_Elevator",
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Elevator_control",
+    "path":"sprites/S_Elevator_control/S_Elevator_control.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -15,9 +15,9 @@ image_speed = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 13A4A008
 /// @DnDApplyTo : {O_Character}
-/// @DnDArgument : "spriteind" "S_CharacterPlaceholder"
-/// @DnDSaveInfo : "spriteind" "S_CharacterPlaceholder"
+/// @DnDArgument : "spriteind" "S_Character"
+/// @DnDSaveInfo : "spriteind" "S_Character"
 with(O_Character) {
-sprite_index = S_CharacterPlaceholder;
+sprite_index = S_Character;
 image_index = 0;
 }
