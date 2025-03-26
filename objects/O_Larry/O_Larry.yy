@@ -32,6 +32,11 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"textIndex","filters":[],"listItems":[],"multiselect":false,"name":"textIndex","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"sprite_npc","filters":[],"listItems":[],"multiselect":false,"name":"sprite_npc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"S_Larry","path":"sprites/S_Larry/S_Larry.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"S_Larry","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"texts","filters":[],"listItems":[
+        "\"Coucou\"",
+        "\"Je suis Larry\"",
+        "\"Clea lepage ou Clea molette ?\"",
+      ],"multiselect":false,"name":"texts","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Coucou\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

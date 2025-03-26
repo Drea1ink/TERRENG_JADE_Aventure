@@ -1,9 +1,11 @@
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Point
 /// @DnDVersion : 1
 /// @DnDHash : 72A5ED15
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "obj" "O_ActionDetection"
 /// @DnDSaveInfo : "obj" "O_ActionDetection"
-var l72A5ED15_0 = collision_point(0, 0, O_ActionDetection, true, 1);if((l72A5ED15_0)){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+var l72A5ED15_0 = collision_point(x + 0, y + 0, O_ActionDetection, true, 1);if((l72A5ED15_0)){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 	/// @DnDVersion : 1
 	/// @DnDHash : 34ADD6E6
 	/// @DnDParent : 72A5ED15

@@ -9,7 +9,7 @@ isAttacking = false;
 /// @DnDVersion : 1
 /// @DnDHash : 4C21B09C
 /// @DnDArgument : "imageind_relative" "1"
-/// @DnDArgument : "spriteind" "S_Character"
-/// @DnDSaveInfo : "spriteind" "S_Character"
-sprite_index = S_Character;
+/// @DnDArgument : "spriteind" "S_Char"
+/// @DnDSaveInfo : "spriteind" "S_Char"
+sprite_index = S_Char;
 image_index += 0;
