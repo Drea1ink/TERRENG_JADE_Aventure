@@ -28,7 +28,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"ButtonText","filters":[],"listItems":[],"multiselect":false,"name":"ButtonText","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Start Game","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"HoverColor","filters":[],"listItems":[],"multiselect":false,"name":"HoverColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF5757DB","varType":7,},
+    {"$GMObjectProperty":"v1","%Name":"Event","filters":[],"listItems":[],"multiselect":false,"name":"Event","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
