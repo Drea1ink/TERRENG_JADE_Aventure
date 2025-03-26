@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"O_Larry",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_Larry",
   "overriddenProperties":[],
@@ -9,7 +12,10 @@
     "name":"Characters",
     "path":"folders/Objects/Characters.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Interactable",
+    "path":"objects/O_Interactable/O_Interactable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -23,7 +29,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"textIndex","filters":[],"listItems":[],"multiselect":false,"name":"textIndex","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_npc","filters":[],"listItems":[],"multiselect":false,"name":"sprite_npc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"S_Larry","path":"sprites/S_Larry/S_Larry.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"S_Larry","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

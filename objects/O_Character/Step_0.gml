@@ -87,3 +87,71 @@ var l16276ED3_0;l16276ED3_0 = keyboard_check(vk_left);if (!l16276ED3_0){	///
 				/// @DnDArgument : "var_1" "dirY"
 				dirX = 0;
 				dirY = 0;}}}}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3C3270BE
+/// @DnDArgument : "var" "dirX"
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "1"
+if(dirX >= 1){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 23655B48
+	/// @DnDInput : 2
+	/// @DnDParent : 3C3270BE
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "var" "champX"
+	/// @DnDArgument : "var_1" "champY"
+	champX = 1;
+	champY = 0;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 31351F85
+/// @DnDArgument : "var" "dirX"
+/// @DnDArgument : "op" "3"
+/// @DnDArgument : "value" "-1"
+if(dirX <= -1){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6C5FE360
+	/// @DnDInput : 2
+	/// @DnDParent : 31351F85
+	/// @DnDArgument : "expr" "-1"
+	/// @DnDArgument : "var" "champX"
+	/// @DnDArgument : "var_1" "champY"
+	champX = -1;
+	champY = 0;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 039F71DA
+/// @DnDArgument : "var" "dirY"
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "1"
+if(dirY >= 1){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7443B227
+	/// @DnDInput : 2
+	/// @DnDParent : 039F71DA
+	/// @DnDArgument : "expr_1" "1"
+	/// @DnDArgument : "var" "champX"
+	/// @DnDArgument : "var_1" "champY"
+	champX = 0;
+	champY = 1;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4F358FD1
+/// @DnDArgument : "var" "dirY"
+/// @DnDArgument : "op" "3"
+/// @DnDArgument : "value" "-1"
+if(dirY <= -1){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 78AFE86A
+	/// @DnDInput : 2
+	/// @DnDParent : 4F358FD1
+	/// @DnDArgument : "expr_1" "-1"
+	/// @DnDArgument : "var" "champX"
+	/// @DnDArgument : "var_1" "champY"
+	champX = 0;
+	champY = -1;}
