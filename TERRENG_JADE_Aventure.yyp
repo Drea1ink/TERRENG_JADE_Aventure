@@ -17,6 +17,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Objects/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ennemis","folderPath":"folders/Objects/Ennemis.yy","name":"Ennemis","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Managers","folderPath":"folders/Objects/Managers.yy","name":"Managers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Minimap","folderPath":"folders/Objects/Minimap.yy","name":"Minimap","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"TERRENG_JADE_Aventure",
   "resources":[
@@ -66,6 +67,7 @@
     {"id":{"name":"O_Pride","path":"objects/O_Pride/O_Pride.yy",},},
     {"id":{"name":"O_Sloth_employee","path":"objects/O_Sloth_employee/O_Sloth_employee.yy",},},
     {"id":{"name":"O_Sloth","path":"objects/O_Sloth/O_Sloth.yy",},},
+    {"id":{"name":"O_UI_Button","path":"objects/O_UI_Button/O_UI_Button.yy",},},
     {"id":{"name":"O_Vent","path":"objects/O_Vent/O_Vent.yy",},},
     {"id":{"name":"O_Wrath_employee","path":"objects/O_Wrath_employee/O_Wrath_employee.yy",},},
     {"id":{"name":"O_Wrath","path":"objects/O_Wrath/O_Wrath.yy",},},
@@ -110,6 +112,7 @@
     {"id":{"name":"S_Key","path":"sprites/S_Key/S_Key.yy",},},
     {"id":{"name":"S_LarryDialogue","path":"sprites/S_LarryDialogue/S_LarryDialogue.yy",},},
     {"id":{"name":"S_TitleScreen","path":"sprites/S_TitleScreen/S_TitleScreen.yy",},},
+    {"id":{"name":"S_UI_Button","path":"sprites/S_UI_Button/S_UI_Button.yy",},},
     {"id":{"name":"S_Vent","path":"sprites/S_Vent/S_Vent.yy",},},
     {"id":{"name":"S_WrathWall","path":"sprites/S_WrathWall/S_WrathWall.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
