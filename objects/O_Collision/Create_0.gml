@@ -157,3 +157,23 @@ if(room == Greed_floor){	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 	/// @DnDArgument : "loop" "1"
 	/// @DnDSaveInfo : "soundid" "Greed_room_music"
 	audio_play_sound(Greed_room_music, 0, 1, 1.0, undefined, 1.0);}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 25275FFB
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "UI"
+if(room == UI){	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 720ED548
+	/// @DnDParent : 25275FFB
+	audio_stop_all();
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 71AFF569
+	/// @DnDParent : 25275FFB
+	/// @DnDArgument : "soundid" "Title_Screen"
+	/// @DnDArgument : "loop" "1"
+	/// @DnDSaveInfo : "soundid" "Title_Screen"
+	audio_play_sound(Title_Screen, 0, 1, 1.0, undefined, 1.0);}
