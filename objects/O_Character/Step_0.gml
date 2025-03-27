@@ -1,14 +1,14 @@
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 59C18993
-/// @DnDArgument : "x" "dirX*32"
+/// @DnDArgument : "x" "dirX*64"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "dirY*32"
+/// @DnDArgument : "y" "dirY*64"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "O_Collision"
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "object" "O_Collision"
-var l59C18993_0 = instance_place(x + dirX*32, y + dirY*32, [O_Collision]);if (!(l59C18993_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
+var l59C18993_0 = instance_place(x + dirX*64, y + dirY*64, [O_Collision]);if (!(l59C18993_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 41565071
 	/// @DnDParent : 59C18993
@@ -19,14 +19,14 @@ var l59C18993_0 = instance_place(x + dirX*32, y + dirY*32, [O_Collision]);if (!
 		/// @DnDHash : 608A250D
 		/// @DnDInput : 3
 		/// @DnDParent : 41565071
-		/// @DnDArgument : "expr" "dirX*32"
-		/// @DnDArgument : "expr_1" "dirY*32"
+		/// @DnDArgument : "expr" "dirX*64"
+		/// @DnDArgument : "expr_1" "dirY*64"
 		/// @DnDArgument : "expr_2" "true"
 		/// @DnDArgument : "var" "targetX"
 		/// @DnDArgument : "var_1" "targetY"
 		/// @DnDArgument : "var_2" "isMoving"
-		targetX = dirX*32;
-		targetY = dirY*32;
+		targetX = dirX*64;
+		targetY = dirY*64;
 		isMoving = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
