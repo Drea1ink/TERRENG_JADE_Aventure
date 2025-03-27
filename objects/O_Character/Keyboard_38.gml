@@ -12,4 +12,13 @@ if(isAttacking == false){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "var" "dirX"
 	/// @DnDArgument : "var_1" "dirY"
 	dirX = 0;
-	dirY = -1;}
+	dirY = -1;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 6AB140A2
+	/// @DnDParent : 0E5CBA5E
+	/// @DnDArgument : "spriteind" "S_Char_back_idle"
+	/// @DnDSaveInfo : "spriteind" "S_Char_back_idle"
+	sprite_index = S_Char_back_idle;
+	image_index = 0;}
