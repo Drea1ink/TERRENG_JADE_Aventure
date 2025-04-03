@@ -138,9 +138,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Envy_floor","path":"rooms/Envy_floor/Envy_floor.yy",},},
     {"roomId":{"name":"UI","path":"rooms/UI/UI.yy",},},
     {"roomId":{"name":"Main_hub","path":"rooms/Main_hub/Main_hub.yy",},},
-    {"roomId":{"name":"Envy_floor","path":"rooms/Envy_floor/Envy_floor.yy",},},
     {"roomId":{"name":"Gluttony_floor","path":"rooms/Gluttony_floor/Gluttony_floor.yy",},},
     {"roomId":{"name":"Wrath_floor","path":"rooms/Wrath_floor/Wrath_floor.yy",},},
     {"roomId":{"name":"Sloth_floor","path":"rooms/Sloth_floor/Sloth_floor.yy",},},
