@@ -1,17 +1,10 @@
-/// @DnDAction : YoYo Games.Data Structures.List_Count
-/// @DnDVersion : 1
-/// @DnDHash : 4A7D100C
-/// @DnDArgument : "assignee" "hmina"
-/// @DnDArgument : "var" "texts"
-hmina = ds_list_size(texts);
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6FB4CA40
 /// @DnDArgument : "var" "textIndex"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "hmina"
-if(textIndex >= hmina){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDArgument : "value" "array_length(texts)"
+if(textIndex >= array_length(texts)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 367256FF
 	/// @DnDParent : 6FB4CA40
@@ -29,24 +22,16 @@ if(textIndex >= hmina){	/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
 /// @DnDHash : 2B60785E
-else{	/// @DnDAction : YoYo Games.Data Structures.List_Get_At
-	/// @DnDVersion : 1
-	/// @DnDHash : 306D86A5
-	/// @DnDParent : 2B60785E
-	/// @DnDArgument : "assignee" "prout"
-	/// @DnDArgument : "assignee_temp" "1"
-	/// @DnDArgument : "var" "texts"
-	/// @DnDArgument : "index" "textIndex"
-	var prout = ds_list_find_value(texts, textIndex);
-
-	/// @DnDAction : YoYo Games.Common.Execute_Script
+else{	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 53C06D2F
+	/// @DnDInput : 2
 	/// @DnDParent : 2B60785E
 	/// @DnDArgument : "script" "Scr_CallDialogue"
-	/// @DnDArgument : "arg" "prout"
+	/// @DnDArgument : "arg" "texts[textIndex]"
+	/// @DnDArgument : "arg_1" "name_npc"
 	/// @DnDSaveInfo : "script" "Scr_CallDialogue"
-	script_execute(Scr_CallDialogue, prout);
+	script_execute(Scr_CallDialogue, texts[textIndex], name_npc);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

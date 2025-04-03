@@ -32,7 +32,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Copeland.otf","CopyToMask":-1,"filePath":"datafiles","name":"Copeland.otf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -49,6 +51,7 @@
     {"id":{"name":"O_Controller","path":"objects/O_Controller/O_Controller.yy",},},
     {"id":{"name":"O_Dialog","path":"objects/O_Dialog/O_Dialog.yy",},},
     {"id":{"name":"O_Dialogue","path":"objects/O_Dialogue/O_Dialogue.yy",},},
+    {"id":{"name":"O_DialogueName","path":"objects/O_DialogueName/O_DialogueName.yy",},},
     {"id":{"name":"O_Door","path":"objects/O_Door/O_Door.yy",},},
     {"id":{"name":"O_Elevator","path":"objects/O_Elevator/O_Elevator.yy",},},
     {"id":{"name":"O_ElevatorButtons","path":"objects/O_ElevatorButtons/O_ElevatorButtons.yy",},},
@@ -74,6 +77,7 @@
     {"id":{"name":"O_Sloth_employee","path":"objects/O_Sloth_employee/O_Sloth_employee.yy",},},
     {"id":{"name":"O_Sloth","path":"objects/O_Sloth/O_Sloth.yy",},},
     {"id":{"name":"O_test","path":"objects/O_test/O_test.yy",},},
+    {"id":{"name":"O_TextBox","path":"objects/O_TextBox/O_TextBox.yy",},},
     {"id":{"name":"O_UI_Button","path":"objects/O_UI_Button/O_UI_Button.yy",},},
     {"id":{"name":"O_UI_ButtonClasse","path":"objects/O_UI_ButtonClasse/O_UI_ButtonClasse.yy",},},
     {"id":{"name":"O_UI_ButtonManager","path":"objects/O_UI_ButtonManager/O_UI_ButtonManager.yy",},},
@@ -138,9 +142,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Envy_floor","path":"rooms/Envy_floor/Envy_floor.yy",},},
     {"roomId":{"name":"UI","path":"rooms/UI/UI.yy",},},
     {"roomId":{"name":"Main_hub","path":"rooms/Main_hub/Main_hub.yy",},},
+    {"roomId":{"name":"Envy_floor","path":"rooms/Envy_floor/Envy_floor.yy",},},
     {"roomId":{"name":"Gluttony_floor","path":"rooms/Gluttony_floor/Gluttony_floor.yy",},},
     {"roomId":{"name":"Wrath_floor","path":"rooms/Wrath_floor/Wrath_floor.yy",},},
     {"roomId":{"name":"Sloth_floor","path":"rooms/Sloth_floor/Sloth_floor.yy",},},

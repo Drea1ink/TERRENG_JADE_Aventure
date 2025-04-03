@@ -8,5 +8,5 @@ function Scr_CloseDialogue() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDHash : 76120A1B
 	/// @DnDParent : 4FF89D76
 	/// @DnDArgument : "expr" "false"
-	/// @DnDArgument : "var" "O_Dialogue.showMap"
-	O_Dialogue.showMap = false;}
+	/// @DnDArgument : "var" "O_Dialogue.show"
+	O_Dialogue.show = false;}
