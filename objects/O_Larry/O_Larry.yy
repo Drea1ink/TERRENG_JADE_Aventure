@@ -36,7 +36,7 @@
         "\"Coucou\"",
         "\"Je suis Larry\"",
         "\"Clea lepage ou Clea molette ?\"",
-      ],"multiselect":false,"name":"texts","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[\"Hey- Ne m'attaque pas, d'accord ?\", \"Je ne suis pas assez payé pour en avoir quoi que ce soit à faire de proteger cet endroit.\", \"Je te propose un marché...\", \"Les fins de mois sont dures, donc je vais te vendre des objets qui pourront t'aider... en échange d'argent.\",\"Ah, et puisque je ne suis pas assez payé pour respecter le quatrième mur non plus...\", \"Utilise la touche entree pour attaquer.\"]","varType":4,},
+      ],"multiselect":false,"name":"texts","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[\"Hey- Ne m'attaque pas, d'accord ?\", \"Je ne suis pas assez payé pour en avoir quoi que ce soit à faire de protéger cet endroit.\", \"Je te propose un marché...\", \"Les fins de mois sont dures, donc je vais te vendre des objets qui pourront t'aider... en échange d'argent.\",\"Ah, et puisque je ne suis pas assez payé pour respecter le quatrième mur non plus...\", \"Utilise la touche entrée pour attaquer.\"]","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"name_npc","filters":[],"listItems":[],"multiselect":false,"name":"name_npc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Larry\"","varType":2,},
   ],
   "resourceType":"GMObject",
