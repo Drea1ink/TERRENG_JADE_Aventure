@@ -38,7 +38,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"TERRENG_JADE_Aventure",
   "resources":[
@@ -99,7 +99,14 @@
     {"id":{"name":"Scr_CloseElevatorButtons","path":"scripts/Scr_CloseElevatorButtons/Scr_CloseElevatorButtons.yy",},},
     {"id":{"name":"Scr_CreateMinimapObject","path":"scripts/Scr_CreateMinimapObject/Scr_CreateMinimapObject.yy",},},
     {"id":{"name":"Scr_CreateMinimapObjectSprite","path":"scripts/Scr_CreateMinimapObjectSprite/Scr_CreateMinimapObjectSprite.yy",},},
+    {"id":{"name":"Scr_LaunchEnvy","path":"scripts/Scr_LaunchEnvy/Scr_LaunchEnvy.yy",},},
+    {"id":{"name":"Scr_LaunchGluttony","path":"scripts/Scr_LaunchGluttony/Scr_LaunchGluttony.yy",},},
+    {"id":{"name":"Scr_LaunchGreed","path":"scripts/Scr_LaunchGreed/Scr_LaunchGreed.yy",},},
+    {"id":{"name":"Scr_LaunchLust","path":"scripts/Scr_LaunchLust/Scr_LaunchLust.yy",},},
+    {"id":{"name":"Scr_LaunchPride","path":"scripts/Scr_LaunchPride/Scr_LaunchPride.yy",},},
     {"id":{"name":"Scr_LaunchRoom","path":"scripts/Scr_LaunchRoom/Scr_LaunchRoom.yy",},},
+    {"id":{"name":"Scr_LaunchSloth","path":"scripts/Scr_LaunchSloth/Scr_LaunchSloth.yy",},},
+    {"id":{"name":"Scr_LaunchWrath","path":"scripts/Scr_LaunchWrath/Scr_LaunchWrath.yy",},},
     {"id":{"name":"Scr_ReduceLife","path":"scripts/Scr_ReduceLife/Scr_ReduceLife.yy",},},
     {"id":{"name":"string_wrap","path":"scripts/string_wrap/string_wrap.yy",},},
     {"id":{"name":"Envy_room_music","path":"sounds/Envy_room_music/Envy_room_music.yy",},},
