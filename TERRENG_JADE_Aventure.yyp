@@ -129,6 +129,7 @@
     {"id":{"name":"Vs_Sloth","path":"sounds/Vs_Sloth/Vs_Sloth.yy",},},
     {"id":{"name":"Vs_Wrath","path":"sounds/Vs_Wrath/Vs_Wrath.yy",},},
     {"id":{"name":"Wrath_room_music","path":"sounds/Wrath_room_music/Wrath_room_music.yy",},},
+    {"id":{"name":"S_BlackWall","path":"sprites/S_BlackWall/S_BlackWall.yy",},},
     {"id":{"name":"S_Char_back_idle","path":"sprites/S_Char_back_idle/S_Char_back_idle.yy",},},
     {"id":{"name":"S_Char","path":"sprites/S_Char/S_Char.yy",},},
     {"id":{"name":"S_Character_hurt","path":"sprites/S_Character_hurt/S_Character_hurt.yy",},},
