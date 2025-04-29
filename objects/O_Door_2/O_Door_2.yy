@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"O_BossMusic",
+  "%Name":"O_Door_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Character","path":"objects/O_Character/O_Character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Envy_employee","path":"objects/O_Envy_employee/O_Envy_employee.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_BossMusic",
+  "name":"O_Door_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"Objects",
+    "path":"folders/Objects/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +29,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"S_test",
-    "path":"sprites/S_test/S_test.yy",
+    "name":"S_Door2",
+    "path":"sprites/S_Door2/S_Door2.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

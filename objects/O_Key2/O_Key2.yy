@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_BossMusic",
+  "%Name":"O_Key2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Character","path":"objects/O_Character/O_Character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_BossMusic",
+  "name":"O_Key2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"Objects",
+    "path":"folders/Objects/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_test",
-    "path":"sprites/S_test/S_test.yy",
+    "name":"S_Key2",
+    "path":"sprites/S_Key2/S_Key2.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
