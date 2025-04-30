@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet1",
+  "%Name":"Tileset_wrath",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet1",
+  "name":"Tileset_wrath",
   "out_columns":3,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"S_Tilesetlust",
-    "path":"sprites/S_Tilesetlust/S_Tilesetlust.yy",
+    "name":"S_TilesetWrath",
+    "path":"sprites/S_TilesetWrath/S_TilesetWrath.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -27,8 +27,8 @@
     "path":"texturegroups/Default",
   },
   "tileAnimationFrames":[
-    {"$GMTileAnimation":"","%Name":"animation_1","frames":[1,2,1,3,4,5,4,3,],"name":"animation_1","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
-    {"$GMTileAnimation":"","%Name":"animation_2","frames":[6,6,6,6,7,7,7,7,],"name":"animation_2","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_1","frames":[1,2,3,4,5,4,3,2,],"name":"animation_1","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_2","frames":[6,7,8,7,],"name":"animation_2","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
   ],
   "tileAnimationSpeed":5.0,
   "tileHeight":64,
