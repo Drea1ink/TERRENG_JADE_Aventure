@@ -7,7 +7,7 @@ Notre protagonniste, non-payé pendant des mois puis viré, décide de son venge
 Aidé de Larry, un secrétaire sous-payé, il va devoir affronter chacun des péchés ainsi que ses anciens collègues pour affonter son ancien patron, Avarice.
 
 
-##Features manquantes :
+## Features manquantes :
 - Marchand
     - Larry était censé incarner le marchand et donner accès a un bouclier, des pouvoirs, une amélioration d'arme et des potions.
 - Boss
