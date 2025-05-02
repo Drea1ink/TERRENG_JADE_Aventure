@@ -1,39 +1,30 @@
 # TERRENG_JADE_Aventure
 
-# Titre
-## Sous-titre
-### Sous-sous-titre
-#### Sous-sous-sous-titre
+# Salary Hell
+
+Dans Salary Hell, vous incarnez Bob, un démon cerf qui travaillait auparavant pour *Sin corporation*, dirigée par les septs péchés captaux.
+Notre protagonniste, non-payé pendant des mois puis viré, décide de son venger et de récupérer lui-même son salaire.
+Aidé de Larry, un secrétaire sous-payé, il va devoir affronter chacun des péchés ainsi que ses anciens collègues pour affonter son ancien patron, Avarice.
 
 
-*italique*
+##Features manquantes :
+- Marchand
+    - Larry était censé incarner le marchand et donner accès a un bouclier, des pouvoirs, une amélioration d'arme et des potions.
+- Boss
+    - Envie est le premier boss et reste une introduction au jeu, étant juste plus dur a tuer que ses employés, ainsi que plus rapide et plus fort.
+    - Gourmandise est le deuxième boss et devait introduire la possibilité d'infliger des dégats au boss avec des objets alentours, avec certaines de ses phases où il est insensible aux attaques normales.
+    - Colère est le troisième boss et utilisait la mécanique des attaques magiques, étant insensible aux attaques normales.
+    - Paresse est le quatrième boss, et utilise des attaques magiques contre nous. Sa mécaniques était de rester discret dans les phases ou il tente de nous reperer, pour ensuite approcher et attaquer.
+    - Luxure est le cinquième boss et a deux "phases" ; une où le joueur ne peut pas attaquer et doit se rendre dans des zones spécifiques pour esquiver, et une où il doit esquiver puis attaquer. Il suffit de le toucher 3 fois pour gagner.
+    - Orgueil est le sixième boss et attaque en jouant du piano. Il faut esquiver, se protéger avec le bouclier ou detruire les attaques avec des attaques magiques tout en attaquant certains objets spécifique pour infliger des dégats au boss. Il faut le toucher 4 fois, mais si il arrive au bout de sa musique avant la que cela ne soit fait, il envoie une attaque inesquivable qui nous tue.
+    - Avarice devait être un mélange des différentes mécaniques de boss.
 
-**gras**
-
-***gras italique***
-
-~~barré~~
-
-- Liste1
-- Liste2
-- Liste3
-    - sous point
-
-
-| Tableau 1 | Tableau 2 |
-| - | - |
-| Element 1 | Element 2 |
-
-> Citation
-
-```py
-#Code en python
-```
-
-```cs
-//Code en cs
-```
-
-[Hyperlien](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3Dr_aojYqud_0&ved=2ahUKEwj0vozs3vCLAxXXfKQEHfiQIokQtwJ6BAgLEAI&usg=AOvVaw0cGdxS-9Dz3sqIrXSb4gkE)
-
-![Image](https://art.ngfiles.com/images/3386000/3386948_b4d-bl4zzur_sozo.jpg?f1691563857)
+- Différents ennemis (employés)
+    - Envie : le seul implanté, a des attaques basique.
+    - Gourmandise : Plus durs a tuer que ceux d'envie.
+    - Colère : Font plus de dégats mais ont un temps de recharge après leur attaque.
+    - Paresse : Alternent entre etat de recherche, où ils vous lancent une attaque magique si ils vous repèrent, et etat de sommeil où vous pouvez les attaquer tranquillement. Ils ne bougent pas.
+    - Luxure : Utilisent des fouets qui leur permettent d'attaquer de plus loin, hors de porté de votre arme. Le fouet peut etre detruit par une attaque et ils se comporteront alors comme les employés d'Envie.
+    - Orgueil :
+- Attaque des employés
+- Minimap
