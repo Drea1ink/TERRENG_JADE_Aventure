@@ -25,6 +25,7 @@ Aidé de Larry, un secrétaire sous-payé, il va devoir affronter chacun des pé
     - Colère : Font plus de dégats mais ont un temps de recharge après leur attaque.
     - Paresse : Alternent entre etat de recherche, où ils vous lancent une attaque magique si ils vous repèrent, et etat de sommeil où vous pouvez les attaquer tranquillement. Ils ne bougent pas.
     - Luxure : Utilisent des fouets qui leur permettent d'attaquer de plus loin, hors de porté de votre arme. Le fouet peut etre detruit par une attaque et ils se comporteront alors comme les employés d'Envie.
-    - Orgueil :
+    - Orgueil : Lancent des attaques devant être bloquées par le bouclier ; pour les attaquer, il suffit d'attendre qu'ils s'arrêtent pour se regarder dans un miroir.
+    - Avarice : Combinaison des autres employés
 - Attaque des employés
 - Minimap
